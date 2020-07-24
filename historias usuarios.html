@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lists, Tables and Forms</title>
+        <style type="text/css">
+            body { 
+                
+                font-family: Arial, Verdana, sans-serif;
+                font-size: 90%;
+                color: #666;
+                background-color: #f8f8f8;}
+          
+            table {
+                float: left ;
+	            margin: 20px;
+                margin-right:3px;
+                border-spacing: 0px;
+                padding: 10px;}
+            th, td {
+                padding: 5px 30px 5px 10px;
+                border-spacing: 0px;
+                font-size: 90%;
+                margin: 10px;}
+            th, td {
+                text-align: left;
+                background-color: #e0e9f0;
+                border-top: 1px solid #f1f8fe;
+                border-bottom: 1px solid #cbd2d8;
+                border-right: 1px solid #cbd2d8;}
+            tr.head th {
+                color: #fff;
+                background-color: #90b4d6;
+                border-bottom: 2px solid #547ca0;
+                border-right: 1px solid #749abe;
+                border-top: 1px solid#90b4d6;
+                text-align: center;
+                text-shadow: -1px -1px 1px #666666;
+                letter-spacing: 0.15em;}                    
+            td {
+                margin:2 ;
+                text-shadow: 1px 1px 1px #ffffff;}
+
+            tr.even td,tr.even th {
+                background-color: #e8eff5;}
+            tr.head th:first-child {
+                -webkit-border-top-left-radius:5px;
+                -moz-border-radius-topleft:5px;
+                border-top-left-radius:5px;} 
+            tr.head th:last-child {
+                -webkit-border-top-right-radius: 5px;
+                -moz-border-radius-topright:5px;
+                border-top-right-radius: 5px;} 
+
+            h1 { text-align: center;}                
+          
+            
+                   
+        </style>
+    </head>
+    <body>
+        <h1>Historias de Usuarios</h1>
+        
+        <table class="one">
+            <tr class="head">
+                
+                <th colspan="5">Historias de Usuarios</th>                                        
+            </tr>
+            
+                <tr>    
+                   <td align="right" valign="middle" bgcolor="tea">Numero: 1</td>
+                   <td colspan="5" align="left" bgcolor="fuchsia">Usuario: Cliente</td>
+                   
+                   </td>            
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Nombre Historia: Registro de Usuario</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"align="right" bgcolor="yelow">Prioridad en Negocio: Alta</td>
+                    <td colspan="3"align="right" bgcolor="yelow">Riesgo en desarrollo: Baja</td>                    
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Programador responsable: Julian Gutierrez</td>
+                                        
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow"><p>Descripcion: Quiero realizar, mi Registro de usuario.</p></td>
+                    
+                </tr>
+                <tr>
+                    <td width="140" colspan="30" rowspan="30" align="center" bgcolor="white"><p>Validacion: El usuario puede 
+                        reliazar de forma fácil, segura y agíl su propio registro de usuario.</p> </td>
+                    
+                    
+               </tr>
+               
+        </table>
+        
+        <table class="two" >
+            <tr class="head">
+                
+                <th colspan="5">Historias de Usuarios</th>                                        
+            </tr>
+            
+                <tr>    
+                   <td align="right" valign="middle" bgcolor="tea">Numero: 2</td>
+                   <td colspan="5" align="left" bgcolor="fuchsia">Usuario: Cliente</td>
+                   
+                   </td>            
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Nombre Historia: Validación de Técnicos</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"align="right" bgcolor="yelow">Prioridad en Negocio: Alta</td>
+                    <td colspan="3"align="right" bgcolor="yelow">Riesgo en desarrollo: Baja</td>                    
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Programador responsable:  Daniel Nazarit</td>
+                                        
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow"><p>Descripcion: Quiero poder escojer el Técnico de mi preferencia.</p></td>
+                    
+                </tr>
+                <tr>
+                    <td width="140" colspan="30" rowspan="30" align="center" bgcolor="white"><p>Validación: El usuario puede 
+                        escojer un técnico, teniendo multiples opciones, de precios y características.  </p> </td>                  
+                </tr>
+               
+               
+
+               
+        </table>
+        
+        <table class="three">
+            <tr class="head">
+                
+                <th colspan="5">Historias de Usuarios</th>                                        
+            </tr>
+            
+                <tr>    
+                   <td align="right" valign="middle" bgcolor="tea">Numero: 3</td>
+                   <td colspan="5" align="left" bgcolor="fuchsia">Usuario: Administrador</td>
+                   
+                   </td>            
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Nombre Historia: Verificación de documentación de los técnicos</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"align="right" bgcolor="yelow">Prioridad en Negocio: Alta</td>
+                    <td colspan="3"align="right" bgcolor="yelow">Riesgo en desarrollo: Baja</td>                    
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Programador responsable: Cristian Abondano</td>
+                                        
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow"><p>Descripción: Quiero verificar la información, de los Técnicos.</p></td>
+                    
+                </tr>
+                <tr>
+                    <td width="140" colspan="30" rowspan="30" align="center" bgcolor="white"><p>Validación: El administrador, debe tener una información, 
+                        veraz de cada uno de los técnicos, que van a ofrecer sus servicios.</p> </td>                  
+                </tr>
+        </table>
+        
+        <table class="four">
+            <tr class="head">
+                
+                <th colspan="5">Historias de Usuarios</th>                                        
+            </tr>
+            
+                <tr>    
+                   <td align="right" valign="middle" bgcolor="tea">Numero: 4</td>
+                   <td colspan="5" align="left" bgcolor="fuchsia">Usuario: Cliente</td>
+                   
+                   </td>            
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Nombre Historia: Usuario</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"align="right" bgcolor="yelow">Prioridad en Negocio: Alta</td>
+                    <td colspan="3"align="right" bgcolor="yelow">Riesgo en desarrollo: Baja</td>                    
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Programador responsable: Liceth Mendez</td>
+                                        
+                </tr>
+                <tr>
+                    <td colspan="3" align="right" bgcolor="yelow"><p>
+                        Descripcion: Quiero: Iniciar sesión con mi propio Usuario</p></td>
+                    
+                </tr>
+                <tr>
+                    <td width="140" colspan="30" rowspan="30" align="center" bgcolor="white"><p>Validacion:El cliente 
+                    puede tener su propio usuario para validar los servicios ofrecidos.</p></td>
+                    
+                    
+               </tr>
+        </table>
+        <table class="five">
+            <tr class="head">
+                
+                <th colspan="5">Historias de Usuarios</th>                                        
+            </tr>
+            
+                <tr>    
+                   <td align="right" valign="middle" bgcolor="tea">Numero: 5</td>
+                   <td colspan="5" align="left" bgcolor="fuchsia">Usuario: Cliente</td>
+                   
+                   </td>            
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Nombre Historia: Descripcion de servicios</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"align="right" bgcolor="yelow">Prioridad en Negocio: Alta</td>
+                    <td colspan="3"align="right" bgcolor="yelow">Riesgo en desarrollo: Baja</td>                    
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow">Programador responsable: Julian Gutierrez</td>
+                                        
+                </tr>
+                <tr>
+                    <td colspan="5"align="right" bgcolor="yelow"><p>
+                        Descripcion: Quiero ver los servicios ofrecidos por categoría.</p> </td>                           
+                    
+                </tr>
+                <tr>
+                    <td width="140" colspan="30" rowspan="30" align="center" bgcolor="white"><p>Validacion: El cliente puede validar los servicios y precios 
+                        que mejor le convenga, para asi tener una mejor decisión.</p></td>                           
+               
+                <br>
+                <br />         
+               </tr>
+              
+
+
+        </table>
+    </body>
+</html>
