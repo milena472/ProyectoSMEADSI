@@ -1,58 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-iniciodesesion{
+    width: 300px;
+    background-image: URL("imagenes/fondo.jpg");
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+.form-iniciodesesion h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+
+}
+.controls{
+    width: 100%;
+    background:white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 14px;
+}
+.boton {
+    width: 100%;
+    font-family: 'calibri';
+    font: bold 11px ;
+    text-decoration: none;
+    background-color: #aba6f8;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+  }
 body{
-    background:#00759e;
+    background-image:url("imagenes/fondo.jpg");
 }
 h1{ text-align: center;color: white;}
-div{
-    width: 200px;
-    height: 100px;
- 
-    color: #fff;
-    font-size: 15px;
-    
-}
+
 .caja_grande1{
-    width: 300px;
-    height: 500px;
-   
+    width: 400px;
+    height: 600px;
+
     position: relative;
-    left: 900px;
+    top: 0px;
+    left: 1000px;
 }
-.caja{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 100px;
-}
-form{
-    width: 50%;
-    height: 70%;
- 
-    margin: 10px;
-    padding: 60px;
-}
-label{
-    font-size: 12px;
-   
-    width: 100%;
-}
-input{
+.caja-form-reg-cliente{
+    width: 400px;
+    height: 500px;
     
-    width: 100%;
+    position: fixed;
+    top: 5px;
+    left: 850px;
+}
+.cajafoto{
+    width: 200px;
+    height: 200px;
+   
+    position: fixed;
+    top: 150px;
+    left: 600px;
+}
+.cajafoto h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+
+}
+.cajadocumentos{
+    width: 400px;
+    height: 200px;
+
+    position: fixed;
+    top: 450px;
+    left: 520px;
+  
+}
+.cajadocumentos h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
 .caja_grande2{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
 
     position: fixed;
     top: 100PX;
-    right: 800px;
+    right: 1000px;
     
 }
 .caja_grande3{
     width: 430px;
-    height: 400px;
-   
+    height: 600px;
+
     position: fixed;
     top: 120PX;
     right: 450px;
@@ -68,48 +127,75 @@ input{
     text-align:left;
     align-items: center;
 }
+.cuadrotexto{
+    width: 300px;
+    height: 300px;
 
+    position: fixed;
+    top: 120PX;
+    left: 1000px;
+    text-align:justify;
+    align-items: center;
+}
+.botonesloguec{
+    width: 200px;
+    height: 30px;
+
+    position: fixed;
+    top:550PX;
+    left: 700px;
+    text-align:justify;
+    align-items: center;
+}
+.cuadrotexto h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
 .enlace{
     font-size: 2rem;
     text-align: center;
 }
 .caja_pequeña{
-    width: 250px;
-    height: 500px;
- 
+    width: 150px;
+    height: 150px;
+   
     position: fixed;
-    top: 50PX;
-    left: 500px;
+    top: 150PX;
+    left: 600px;
     text-align: center;
 
 }
 .caja_pequeña2{
-    width: 250px;
-    height: 500px;
-  
+    width: 150px;
+    height: 150px;
+
     position: fixed;
-    top: 50px;
-    right: 300px;
+    top: 150PX;
+    left: 800px;
     text-align: center;
 
 }
 .caja_pequeña3{
-    width: 100px;
-    height: 100px;
- 
+    width: 150px;
+    height: 150px;
+
     position: fixed;
-    top: 550px;
-    right: 100px;
+    top: 350PX;
+    left: 600px;
     text-align: center;
+
 
 }
 .caja_pequeña4{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
  
     position: fixed;
-    top: 400px;
-    right: 100px;
+    top: 350PX;
+    left: 800px;
     text-align: center;
 
 }
