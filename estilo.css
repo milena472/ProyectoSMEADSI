@@ -79,7 +79,7 @@ h1{ text-align: center;color: white;}
     font-size: 22px;
     margin-bottom: 20px;
     text-align: center;
-    color: white;
+    color: black;
     -webkit-text-stroke: 1px black;
 
 }
@@ -96,7 +96,7 @@ h1{ text-align: center;color: white;}
     font-size: 22px;
     margin-bottom: 20px;
     text-align: center;
-    color: white;
+    color: black;
     -webkit-text-stroke: 1px black;
 }
 .caja_grande2{
@@ -151,7 +151,7 @@ h1{ text-align: center;color: white;}
     font-size: 22px;
     margin-bottom: 20px;
     text-align: center;
-    color: white;
+    color: black;
     -webkit-text-stroke: 1px black;
 }
 .enlace{
@@ -197,7 +197,6 @@ h1{ text-align: center;color: white;}
     top: 350PX;
     left: 800px;
     text-align: center;
-
 }
 .foto{
     width: 120px;
@@ -207,5 +206,123 @@ h1{ text-align: center;color: white;}
     top: 140px;
     right: 570px;
     text-align: center;
+
+}
+.cajacantidad1{
+    width: 100px;
+    height: 40px;
+    background: white;
+    position: fixed;
+    top: 300PX;
+    left: 620px;
+    text-align: center;  
+}
+.cajacantidad1 h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white
+    -webkit-text-stroke 1px rgb(85, 85, 85);
+}
+.caja_solicitudes{
+    width: 300px;
+    height: 450px;
+
+    position: fixed;
+    top: 100PX;
+    right: 1000px;
+}
+.fotos_solicitudes{
+    width: 130px;
+    height: 390px;
+
+    position: fixed;
+    top: 130px;
+    right: 570px;
+    text-align: center;
+   
+
+}
+.cuadrotexto1{
+    width: 300px;
+    height: 100px;
+ 
+    position: fixed;
+    top: 130PX;
+    left: 1000px;
+    text-align:justify;
+    align-items: center;
+}
+.cuadrotexto2{
+    width: 300px;
+    height: 100px;
+
+    position: fixed;
+    top: 270PX;
+    left: 1000px;
+    text-align:justify;
+    align-items: center;
+}
+.cuadrotexto3{
+    width: 300px;
+    height: 100px;
+  
+    position: fixed;
+    top: 400PX;
+    left: 1000px;
+    text-align:justify;
+    align-items: center;
+}
+.chatstecnico1{
+    width: 600px;
+    height: 150px;
+    background-image: URL("imagenes/fondo.jpg");
+    position: fixed;
+    top: 100PX;
+    left: 620px;
+    text-align: center;  
+}
+.chatstecnico2{
+    width: 600px;
+    height: 150px;
+    background-image: URL("imagenes/fondo.jpg");
+    position: fixed;
+    top: 300PX;
+    left: 620px;
+    text-align: center;  
+}
+.chatstecnico3{
+    width: 600px;
+    height: 150px;
+    background-image: URL("imagenes/fondo.jpg");
+    position: fixed;
+    top: 500PX;
+    left: 620px;
+    text-align: center;  
+}
+.cajacalificacion{
+    width:600px;
+    height: 450px;
+
+    position: fixed;
+    top: 120PX;
+    right: 250px;
+}
+.cajaselecciontecnicos{
+    width: 600px;
+    height: 170px;
+ 
+    position: fixed;
+    top: 120px;
+    left: 550px;
+
+}
+.cajaselecciontecnicos2{
+    width: 600px;
+    height: 170px;
+   
+    position: fixed;
+    top: 320px;
+    left: 550px;
 
 }
